@@ -12,4 +12,4 @@ LABEL io.k8s.display-name="OpenShift Container Platform Heapster" \
 # heapster doesn't require root
 USER 1001
 
-ENTRYPOINT ["/usr/bin/heapster", "--logtostderr", "--install-crds=false"]
+ENTRYPOINT ["/usr/bin/heapster", "--logtostderr"]
